@@ -20,8 +20,8 @@ const Achievements = () => {
         <div className='box2 w-[80%] my-4 lg:w-[40%]'>
           <h2 className='text-center font-extrabold text-2xl dark:text-green  text-blue'># Python Automation</h2>
           <p className='my-4 text-lg dark:text-green  text-blue'>Having good understating of Python, last year working at CGI, I was able to automate manual tasks. Not just one task but was able to automate two different process using Pandas module. You can visit the code repository</p>
-          <button className='dark:text-green  text-blue m-4 text-2xl font-extrabold underline'>SLA Automation</button>
-          <button className='dark:text-green  text-blue text-2xl font-extrabold underline'>User List Automation</button>
+          <a href='https://github.com/GD-R/Python-SLA-Automation' target="_blank" className='dark:text-green  text-blue m-4 text-2xl font-extrabold underline'>SLA Automation</a>
+          <a href='https://github.com/GD-R/Python-User-Validation' target="_blank" className='dark:text-green  text-blue text-2xl font-extrabold underline'>User List Automation</a>
         </div>
        </div>
      </section>
