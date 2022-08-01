@@ -67,8 +67,8 @@ const Navbar = (props) => {
     <Drawer opened={drawer} onClose={() => setDrawer(false)} position="top" >
             <div className='bg-light dark:bg-dark h-full flex flex-col items-center w-full'>
             <div className='w-full'><NavLink to={"/about"}><button className=' py-6 px-5 w-full text-lg font-Philosopher hover:bg-dark dark:hover:bg-light hover:text-green dark:hover:text-blue  dark:text-green text-blue'>ABOUT</button></NavLink></div>
-         <div className='w-full'><NavLink to={"/projects"}><button className=' py-6 px-5 w-full text-lg font-Philosopher hover:bg-dark dark:hover:bg-light hover:text-green dark:hover:text-blue  dark:text-green text-blue' >PROJECTS</button></NavLink></div>
-          <div className='w-full'><NavLink to={"/contact"}><button className=' py-6 px-5 w-full text-lg font-Philosopher hover:bg-dark dark:hover:bg-light hover:text-green dark:hover:text-blue  dark:text-green text-blue' >CONTACT</button></NavLink></div>
+            <div className='w-full'><NavLink to={"/projects"}><button className=' py-6 px-5 w-full text-lg font-Philosopher hover:bg-dark dark:hover:bg-light hover:text-green dark:hover:text-blue  dark:text-green text-blue' >PROJECTS</button></NavLink></div>
+            <div className='w-full'><NavLink to={"/contact"}><button className=' py-6 px-5 w-full text-lg font-Philosopher hover:bg-dark dark:hover:bg-light hover:text-green dark:hover:text-blue  dark:text-green text-blue' >CONTACT</button></NavLink></div>
             </div>
           </Drawer>
     </div>

@@ -6,11 +6,18 @@ import Admin from '../assets/admin.png'
 import Resources from '../assets/resources.png'
 import Dice from '../assets/dice.png'
 import Book from '../assets/book.png'
+import "./project.css"
+import { useState } from 'react'
+import htmlProjects from '../data/htmlProjects'
 
 
 
 
 const Projects = () => {
+
+  const [project, setProject] = useState("react")
+
+  
 
   const allProjects = [
     { name: "NetFlix Clone", img:Netflix, tags: ["#React", "#Redux", "#Context API", "#Router", "#FireBase", "#Tailwind"], demo:"https://react-netflix-clone-gd.netlify.app/", code:"https://github.com/GD-R/react-netflix-clone" },
@@ -20,16 +27,26 @@ const Projects = () => {
     { name: "Dice Game", img:Dice, tags: ["#React","#Tailwind", "#Material UI"], demo:"https://react-tenzi.netlify.app/", code:"https://github.com/GD-R/react-dice" },
     { name: "Book Management App", img:Book, tags: ["#React", "#Context API", "#Tailwind", "#Material UI"], demo:"https://react-book-manage.netlify.app/", code:"https://github.com/GD-R/react-book-manage-app" },
   ]
+
+  
+
+ 
    
 
   return (
     <>
       <section className='w-[90%] h-full dark:text-green text-blue mx-auto'>
-      <div className='container text-center'>
+      <div className='flex justify-center gap-8 mb-6'>
+         <button onClick={() => setProject("react")} class="btn">REACT</button>
+         <button onClick={() => setProject("html")} class="btn">HTML-CSS</button>
+      </div>
+      <div className='container flex w-full flex-wrap justify-center'>
      
-       { allProjects.map((project, index) => {
+       { project === "react"?  allProjects.map((project, index) => {
         return(<ProjectCard key={index} project={project} />)
-       }) 
+       }) : htmlProjects.map((project, index) => {
+        return(<ProjectCard key={index} project={project} />)
+       })
         }
  
       </div>
