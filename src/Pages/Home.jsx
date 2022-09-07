@@ -35,29 +35,7 @@ const Home = () => {
             <p className='lg:text-2xl animate-bounce animation dark:text-green  text-blue' >I believe in CODE, ready to apply my passion for coding to a talented engineering team to develop quality solutions </p>
         </div>
 
-        <div className='right m-2 p-8 lg:p-20'>
-          <div className='cube relative'>
-             <div className='face1 icon'>
-                <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-             </div>
-             <div className='face2 icon'>
-                <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-             </div>
-             <div className='face3 icon'>
-                <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-             </div>
-             <div className='face4 icon'>
-                <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-             </div>
-             <div className='face5 icon'>
-                <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-             </div>
-             <div className='face6 icon'>
-                <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
-             </div>
-          </div>
-        </div>
-
+        
         </main>
     </>
   )
