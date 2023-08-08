@@ -7,7 +7,7 @@ const Achievements = () => {
   return (
     <>
      <section className='w-full h-full p-4 my-8'>
-       <div className='container flex flex-col justify-center items-center lg:flex-row lg:justify-between lg:items-start pb-8'>
+       <div className='container flex flex-col justify-center items-center lg:flex-row lg:justify-between  pb-8'>
      
        <div className='box1 w-[80%] lg:w-[45%]'>
             <h2 className='my-4 text-center font-extrabold text-2xl dark:text-green  text-blue'># Badges Earned for submitting GeekTrust Frond End Challenge</h2>
@@ -19,10 +19,8 @@ const Achievements = () => {
 
         <div className='box2 w-[80%] my-4 lg:w-[40%]'>
           <h2 className='text-center font-extrabold text-2xl dark:text-green  text-blue'># Python Automation</h2>
-          <p className='my-4 text-lg dark:text-green  text-blue'>Having good understating of Python, last year working at CGI, I was able to automate manual tasks. Not just one task but was able to automate two different process using Pandas module. You can visit the code repository</p>
-          <a href='https://github.com/GD-R/Python-SLA-Automation' target="_blank" className='dark:text-green  text-blue m-4 text-2xl font-extrabold underline'>SLA Automation</a>
-          <a href='https://github.com/GD-R/Python-User-Validation' target="_blank" className='dark:text-green  text-blue text-2xl font-extrabold underline'>User List Automation</a>
-        </div>
+          <p className='my-4 text-lg dark:text-green  text-blue'>Using Python pandas I was able to automate Validating list of user having access to the Server and Database at CGI</p>
+         </div>
        </div>
      </section>
     </>

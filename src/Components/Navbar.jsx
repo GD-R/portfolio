@@ -53,13 +53,7 @@ const Navbar = (props) => {
 
     <div className='navbar_right'>
 
-       <div className=' mobile_right md:hidden  cursor-pointer' onClick={() => setTheme(colorTheme)}>
-          <img src={colorTheme ==="dark" ?  MoonLight : MoonDark} alt="img"/>
-       </div>
-         
-       <div className='right hidden md:block cursor-pointer' onClick={() => setTheme(colorTheme)}>
-          <img src={colorTheme ==="dark" ?  MoonLight : MoonDark} alt="img"/>
-       </div>
+      
       
 
     </div>

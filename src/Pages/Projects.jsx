@@ -22,8 +22,7 @@ const Projects = () => {
   const allProjects = [
     { name: "NetFlix Clone", img:Netflix, tags: ["#React", "#Redux", "#Context API", "#Router", "#FireBase", "#Tailwind"], demo:"https://react-netflix-clone-gd.netlify.app/", code:"https://github.com/GD-R/react-netflix-clone" },
     { name: "GeekTrust Challenge - Tee-Store", img:Tee, tags: ["#React", "#Redux", "#Context API", "#Router", "#Material UI", "#Tailwind"], demo:"https://react-teerex-store.netlify.app/", code:"https://github.com/GD-R/react_teeRex_store" },
-    { name: "GeekTrust Challenge - Admin UI", img:Admin, tags: ["#React", "#Context API", "#Material UI", "#Tailwind"], demo:"https://react-admin-ui-gd.netlify.app/", code:"https://github.com/GD-R/react_admin_ui" },
-    { name: "React Resources", img:Resources, tags: ["#React", "#API", "#Tailwind"], demo:"https://react-resources.netlify.app/", code:"https://github.com/GD-R/react-resources" },
+    
     { name: "Dice Game", img:Dice, tags: ["#React","#Tailwind", "#Material UI"], demo:"https://react-tenzi.netlify.app/", code:"https://github.com/GD-R/react-dice" },
     { name: "Book Management App", img:Book, tags: ["#React", "#Context API", "#Tailwind", "#Material UI"], demo:"https://react-book-manage.netlify.app/", code:"https://github.com/GD-R/react-book-manage-app" },
   ]
@@ -37,8 +36,8 @@ const Projects = () => {
     <>
       <section className='w-[90%] h-full dark:text-green text-blue mx-auto'>
       <div className='flex justify-center gap-8 mb-6'>
-         <button onClick={() => setProject("react")} class="btn">REACT</button>
-         <button onClick={() => setProject("html")} class="btn">HTML-CSS</button>
+         
+        
       </div>
       <div className='container flex w-full flex-wrap justify-center'>
      

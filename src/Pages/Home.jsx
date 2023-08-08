@@ -8,20 +8,20 @@ import  Coding  from "../assets/coding.png";
 const Home = () => {
 
   
-  const typeRef = useRef(null)
+  // const typeRef = useRef(null)
   
-  useEffect(() => {
-   const type = new Typed(typeRef.current, {
-    strings: ['Gandharva R', 'Front End Developer'],
-    startDelay: 250,
-    typeSpeed: 250,
-    backDelay: 250,
-    backSpeed: 250,
-    smartBackspace: true,
-    showCursor: false,
-    loop: true,
-   })
-  })
+  // useEffect(() => {
+  //  const type = new Typed(typeRef.current, {
+  //   strings: ['Gandharva R', 'Front End Developer'],
+  //   startDelay: 250,
+  //   typeSpeed: 250,
+  //   backDelay: 250,
+  //   backSpeed: 250,
+  //   smartBackspace: true,
+  //   showCursor: false,
+  //   loop: true,
+  //  })
+  // })
 
   return (
     <>
@@ -29,8 +29,9 @@ const Home = () => {
         
         <div className='left_box  px-6 sm:px-9 md:px-12 lg:px-16 lg:py-10 py-5 m-2 lg:w-[70%]'>
              <h5 className='text-wite text-3xl sm:text-3xl md:text-4xl'>Hi,</h5>
-             <h1 className='text-wite text-4xl sm:text-5xl md:text-6xl'>I'm <span ref={typeRef} id="myElement" className='dark:text-green  text-blue text-4xl sm:text-5xl md:text-6xl'></span></h1>
-            <p className='lg:text-2xl animate-bounce animation dark:text-green  text-blue my-3'>I am Web Developer and tech-obsessed currently looking for Front End position to work with the latest technologies and diverse projects</p>
+             <h1 className='text-wite text-4xl sm:text-5xl md:text-6xl'>I'm <span id="myElement" className='dark:text-green  text-blue text-4xl sm:text-5xl md:text-5xl'>Gandharva R</span></h1>
+            <p className='lg:text-2xl animate-bounce animation dark:text-green  text-blue my-3'>I am self-taught developer, looking for position to work with the latest technologies and
+diverse projects</p>
             <p className='lg:text-2xl animate-bounce animation dark:text-green  text-blue' >I believe in CODE, ready to apply my passion for coding to a talented engineering team to develop quality solutions </p>
         </div>
         
